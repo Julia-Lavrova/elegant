@@ -531,7 +531,47 @@ span.table-title:hover {
         text-decoration: underline;
         cursor: pointer;
 }
-
+.logo-bg-blog {
+    background: url("../img/Layer-1.jpg") no-repeat;
+    height: 400px;
+}
+.blog-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 30px 0;
+}
+.title-lvl4 {
+    font-size: 24pt;
+    color: rgb(77, 92, 102);
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.time {
+    color: #d4af37;
+    font-size: 13pt;
+    text-transform: uppercase;
+}
+.btn-right {
+    text-align: right;
+}
+.new {
+    margin: 30px 0;
+}
+.news-list {
+    padding: 30px 0;
+}
+.new-title {
+    font-size: 21px;
+    color: #7B868C;
+    border-bottom: 2px solid #FFEB3B;
+    text-align: left;
+}
+.short-description {
+    text-align: left;
+    padding: 10px 30px;
+    font-style: italic;
+}
 
 
 
