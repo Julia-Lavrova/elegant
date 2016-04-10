@@ -473,6 +473,64 @@ span.table-title:hover {
     color: #d4af37;
     cursor: pointer;
 }
+.logo-bg-progect {
+    background: url('../img/progect-bg-img.jpg') top center;
+    height: 400px;
+}
+.progect-container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    padding: 60px 0;
+}
+.col-2 {
+    flex-basis: 66%;
+}
+.col-1 {
+    flex-basis: 33%;
+    text-align: center;
+
+}
+.title-lvl2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 60px 0;
+}
+.photo-progect img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+.photo-progect {
+    margin: 20px 9px 20px 0;
+}
+.col-1 img {
+    width: 70%;
+    height: auto;
+    margin: 0;
+}
+.col-1 div {
+    margin:0 auto;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.social-btn {
+    background: none;
+    border: 1px solid black;
+    padding: 15px 64px;
+}
+.social-btn a {
+    color: #000;
+}
+.social-btn:hover {
+        border-color: #d4af37;
+        text-decoration: underline;
+        cursor: pointer;
+}
 
 
 
