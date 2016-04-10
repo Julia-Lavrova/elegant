@@ -394,10 +394,6 @@ ul.dropdown li:hover > ul {
     margin: 0 auto;
     width: 80%;
 }
-.text-box p {
-    margin: 80px 5px;
-    text-align: center;
-}
 .main-content-services {
     background: #F1F1F1;
     display: flex;
@@ -430,6 +426,15 @@ ul.dropdown li:hover > ul {
 .text-clmn-2 ul {
     list-style-type: none;
     padding: 0px 5px;
+}
+.logo-bg-work {
+    background: url('../img/work-logo-img .JPG') no-repeat center center;
+    height: 400px;
+    background-size: 100%;
+}
+.description {
+    text-align: center;
+    margin: 80px;
 }
 
 /*HOVER*/
@@ -668,6 +673,9 @@ span.table-title:hover {
     }
     .service-content {
         flex-direction: column;
+    }
+    .logo-bg-work {
+        height: 155px;
     }
 }
 
