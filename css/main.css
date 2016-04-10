@@ -287,43 +287,6 @@ footer.container {
     display: inline-flex;
     justify-content: center;
 }
-
-/*HOVER*/
-
-span.index-title:hover {
-    cursor: pointer;
-
-}
-
-@keyframes cssload-breathe {
-    0% {
-        letter-spacing: 0;
-        text-shadow: 0 0 1px white;
-    }
-    100% {
-        transform:scale(0);
-        text-shadow: 0 0 6px white;
-        color: transparent;
-    }
-}
-
-.title:hover {
-    color: #DED6D6;
-    cursor: pointer;
-}
-.title-lvl1:hover {
-    color: #d4af37;
-    cursor: pointer;
-}
-button:hover {
-    border-color: #d4af37;
-    text-decoration: underline;
-    cursor: pointer;
-}
-span.table-title:hover {
-    color: #d4af37;
-    cursor: pointer;
-}
 /*dropDownMenu*/
 
 ul.dropdown,
@@ -422,6 +385,87 @@ ul.dropdown li:hover > ul {
     padding: 40px 30px;
     color: #D6D2D2;
     background: #212121;
+}
+.logo-bg-about {
+    background: url('../img/cd-intro-about-bg.jpg') no-repeat center center;
+    height: 430px;
+}
+.about-us-block {
+    margin: 0 auto;
+    width: 80%;
+}
+.text-box p {
+    margin: 80px 5px;
+    text-align: center;
+}
+.main-content-services {
+    background: #F1F1F1;
+    display: flex;
+}
+.main-content-services-img {
+    flex:0 0 50%;
+}
+.main-content-services-img img {
+    width: 100%;
+}
+.main-content-services-txt {
+    padding: 30px 40px;
+    flex:0 0 50%;
+}
+.title-lvl3 {
+    color: #505D68;
+    font-size: 23px;
+    font-weight: 600;
+}
+.service-content {
+    display: flex;
+}
+.text-clmn-1, .text-clmn-2 {
+    flex: 0 0 50%;
+}
+.text-clmn-2 ul li:before {
+    content: '- ';
+    font-size: 17px;
+}
+.text-clmn-2 ul {
+    list-style-type: none;
+}
+
+/*HOVER*/
+
+span.index-title:hover {
+    cursor: pointer;
+
+}
+
+@keyframes cssload-breathe {
+    0% {
+        letter-spacing: 0;
+        text-shadow: 0 0 1px white;
+    }
+    100% {
+        transform:scale(0);
+        text-shadow: 0 0 6px white;
+        color: transparent;
+    }
+}
+
+.title:hover {
+    color: #DED6D6;
+    cursor: pointer;
+}
+.title-lvl1:hover {
+    color: #d4af37;
+    cursor: pointer;
+}
+button:hover {
+    border-color: #d4af37;
+    text-decoration: underline;
+    cursor: pointer;
+}
+span.table-title:hover {
+    color: #d4af37;
+    cursor: pointer;
 }
 
 
