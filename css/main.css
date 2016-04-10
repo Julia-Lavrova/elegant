@@ -429,6 +429,7 @@ ul.dropdown li:hover > ul {
 }
 .text-clmn-2 ul {
     list-style-type: none;
+    padding: 0px 5px;
 }
 
 /*HOVER*/
@@ -658,6 +659,15 @@ span.table-title:hover {
         width: 100%;
         text-align: center;
         height: auto;
+    }
+    .main-content-services-img {
+        flex-basis: 100%;
+    }
+    .main-content-services {
+        flex-direction: column;
+    }
+    .service-content {
+        flex-direction: column;
     }
 }
 
