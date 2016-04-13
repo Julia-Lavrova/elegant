@@ -338,6 +338,8 @@ ul.dropdown ul ul {
 
 ul.dropdown li:hover > ul {
     visibility: visible;
+    background: rgba(255,255,255, 0.9);
+    padding: 10px;
 }
 
 /* END dropDownMenu */
@@ -818,7 +820,7 @@ span.table-title:hover {
         border: 1px solid black;
         padding: 15px 64px;
         text-align: center;
-        margin: 0 auto;
+        margin: 15px auto;
     }
 
 }
