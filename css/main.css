@@ -429,7 +429,7 @@ ul.dropdown li:hover > ul {
 }
 .logo-bg-work {
     background: url('../img/work-logo-img .JPG') no-repeat center center;
-    background-size: contain;
+    background-size: cover;
     height: 332px;
 }
 .description {
@@ -506,8 +506,8 @@ span.table-title:hover {
     margin: 20px 9px 20px 0;
 }
 .col-1 img {
-    width: 70%;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin: 0;
 }
 .col-1 div {
@@ -576,7 +576,7 @@ span.table-title:hover {
     text-align: center;
 }
 .col-1 img {
-    width: 80%;
+    width: 180px;
     height: 180px;
     margin: 0;
 }
@@ -667,7 +667,21 @@ span.table-title:hover {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
+   @media (max-width: 1000px) {
+    .blog-container {
+        display:block;
+    }
+    .col-2 {
+        flex-basis: 66%;
+        text-align: center;
+    }
+    .short-description div {
+        display: inline-block;
+    }
+    .col-1 img {
+        width: 180px;
+    }
+   }
 @media (max-width: 960px) {
     .header-top {
         height: 80px;
@@ -704,6 +718,10 @@ span.table-title:hover {
     }
     .info p {
         font-size: 13pt;
+    }
+    .image-4 img {
+        height: 195px;
+        width: 100%;
     }
     .side {
         width: 100%;
@@ -778,18 +796,18 @@ span.table-title:hover {
     .blog-img img {
         width: 100%;
     }
-    .blog-container {
-        display:block;
-    }
     .progect-container {
         display: block;
         padding: 30px 0;
     }
     .photo-progect img {
         width: 80%;
-        height: 200px;
+        height: auto;
         margin: 15px 0;
         text-align: center;
+    }
+    .photo-progect-small div {
+        display: inline-block;
     }
     .social{
         display:block;
@@ -802,26 +820,24 @@ span.table-title:hover {
         text-align: center;
         margin: 0 auto;
     }
-    .col-2 {
-        flex-basis: 66%;
-        text-align: center;
-    }
+
+}
 @media (max-width: 600px) {
     .image-4 {
-        width: 93%;
+        width: 46%;
+        display: inline-block;
     }
-    .image-4 img {
-        width: 100%;
-        height: 165px;
-    }
+
 }
 @media (max-width: 480px) {
       .logo-bg-contact {
           background: none;
           height: 100px;
       }
-        .logo-bg-work {
-          height: 155px;
+      .image-4 {
+          width: 80%;
+          margin: 0 auto;
+          display: block;
       }
 }
 
